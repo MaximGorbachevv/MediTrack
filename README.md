@@ -18,5 +18,5 @@ Backend-система для медицинского учреждения на
 
 Как запустить:
 1. Запустите PostgreSQL через Docker:
-   ```bash
+   bash
    docker run --name meditrack-db -e POSTGRES_DB=meditrack -e POSTGRES_USER=postgres -e POSTGRES_PASSWORD=postgres -p 5433:5432 -d postgres:15
